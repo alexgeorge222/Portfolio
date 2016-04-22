@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="attractionsM.xsl"?>
+<lAttractions>
+	<attractions>
+		<id>lE</id>
+		<idM>lEM</idM>
+		<name>London Eye</name>
+		<address>London SE1 7PB</address>
+		<picture>london_eye.jpg</picture>
+		<pictureS>london_eyeS.jpg</pictureS>
+		<tube>Waterloo Station</tube>
+		<rating>2 Stars</rating>
+		<price>
+			<Adult>Adult:18.00</Adult>
+			<Child>Child:12.00</Child>
+		</price>
+		<sDescription>A Large Ferris Wheel</sDescription>
+		<lDescription>As Europe's tallest Ferris Wheel, The London Eye offers one of the highest public
+				viewpoints in London. The structure is 135m tall and has a diameter of 120m. It 
+				has had numerous coporate sponsers over the years, from British Airways to Coca-Cola</lDescription>
+		<opening>10am-8:30pm</opening>
+		<phone>(0)871 781 3000</phone>
+		<category>Large Wheels</category>
+		<funFact>It's A Large Wheel</funFact>
+	</attractions>
+	
+	<attractions>
+		<id>mL</id>
+		<idM>lmL</idM>
+		<name>Museum of London</name>
+		<address>150 London Wall, London EC2Y 5HN</address>
+		<picture>museum_of_london.jpg</picture>
+		<pictureS>museum_of_londonS.jpg</pictureS>
+		<rating>5 Stars</rating>
+		<tube>St. Paul's</tube>
+		<price>
+			<Adult>Adult:Free</Adult>
+			<Child>Child:More Free</Child>
+		</price>
+		<sDescription>Artifacts chronicaling London's History</sDescription>
+		<lDescription>Telling stories of the world's greatest city, and the people who inhabit it
+				The Museum of London houses artefacts from prehistory to modern times. Overlooking
+				the remains of the Roman city wall on the oldest part of the city
+				the museum is mostly concerned with th social history of the city</lDescription>
+		<opening>10am-6pm</opening>
+		<phone>020 7001 9844</phone>
+		<category>Museum</category>
+		<funFact>The Museum displays over 7000 objects for public viewing</funFact>
+	</attractions>
+
+	<attractions>
+		<id>tL</id>
+		<idM>ltL</idM>
+		<name>Tower of London</name>
+		<address>St Katharine's and Wapping, London EC3N 4AB</address>
+		<picture>tower_of_london.jpg</picture>
+		<pictureS>tower_of_londonS.jpg</pictureS>
+		<rating>3 Stars</rating>
+		<tube>Tower Hill</tube>
+		<price>
+			<Adult>Adult:24.00</Adult>
+			<Child>Child:12.00</Child>
+		</price>
+		<sDescription>Home to the Crown Jewels and Centuries of Bloody History</sDescription>
+		<lDescription>The Tower of London is a historic castle on the bank of the River Thames in central London
+				Founded towards the end of the norman conquest of 1066, the castle has been used to 
+				house prisoners until 1952, as well as serving various other roles.  It now serves as an
+				attraction for tourist who are looking for a place to drop 30 quid. Fun.</lDescription>
+		<opening>
+			<Tuesday_Saturday>Tuesday-Saturday: 9am-4:30pm</Tuesday_Saturday>
+			<Sunday_Monday>Sunday/Monday: 10am-4:30pm</Sunday_Monday>
+		</opening>
+		<phone>0844 482 7777</phone>
+		<category>Historic</category>
+		<funFact>It is said if the Ravens of the tower leave, the tower will lose 10% of its tourism revenue</funFact>
+	</attractions>
+	
+	<attractions>
+		<id>pW</id>
+		<idM>lpW</idM>
+		<name>Palace of Westminster</name>
+		<address>Westminster, London SW1A 0AA</address>
+		<picture>parliment.jpg</picture>
+		<pictureS>parlimentS.jpg</pictureS>
+		<rating>5 Stars</rating>
+		<tube>Westminster Station</tube>
+		<price>
+			<Adult>Adult:18.00</Adult>
+			<Child>Child:7.00</Child>
+		</price>
+		<sDescription>Iconic palace on the River Thames</sDescription>
+		<lDescription>Housing both the House of Commons and the House of Lords, the palace has been the home of petty
+		squabbling and useless bickering for almost 200 years.  This of course after the old palace burned down as a result
+		of a chimney fire.  The complex is also home to the famous clocktower commonly known as Big Ben, although
+		it is well known that this tower is actually known as the Elizabeth Tower, and Big Ben is just the largest bell in the tower
+		Now you can accuse your friends of being idiot tourist for not knowing this. </lDescription>
+		<opening>
+			Please Book in Advance for Tour Times
+		</opening>
+		<phone>020 7219 3000</phone>
+		<category>Historic</category>
+		<funFact>If you get your picture taken here, everyone will know you were in London, as opposed to any other attractions which 
+		will just lead to assumptions of a London visit</funFact>
+	</attractions>
+
+	<attractions>
+		<id>sP</id>
+		<idM>lsP</idM>
+		<name>St. Paul's Cathedral</name>
+		<address> St. Paul's Churchyard, London EC4M 8AD</address>
+		<picture>st_paul.jpg</picture>
+		<pictureS>st_paulS.jpg</pictureS>
+		<tube>St. Paul's Station</tube>
+		<rating>4 Stars</rating>
+		<price>
+			<Adult>Adult:18.00</Adult>
+			<Child>Child:12.00</Child>
+		</price>
+		<sDescription>Historic Cathedral in Central London</sDescription>
+		<lDescription>This historic Cathedral in London has been a fixture of the London skyline since it's construction
+		in the 17th century.  </lDescription>
+		<opening>10am-8:30pm</opening>
+		<phone>0207 246 8357</phone>
+		<category>Historic</category>
+		<funFact>Stick it to the man by going during church services to avoid paying</funFact>
+	</attractions>
+</lAttractions>
