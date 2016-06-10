@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Brain Training</string>
+    <string name="t_one">1</string>
+    <string name="t_two">2</string>
+    <string name="t_three">3</string>
+    <string name="t_four">4</string>
+    <string name="t_five">5</string>
+    <string name="t_six">6</string>
+    <string name="t_seven">7</string>
+    <string name="t_eight">8</string>
+    <string name="t_nine">9</string>
+    <string name="t_zero">0</string>
+    <string name="t_del">DEL</string>
+    <string name="t_pound">#</string>
+    <string name="t_min">-</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="nGame">New Game</string>
+    <string name="cont">Continue</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="hint">Hint</string>
+    <string name="round">Round</string>
+    <string name="gotcha">Gotcha</string>
+    <string name="quest">SPACE FILL</string>
+    <string name="diff">Choose Your Difficulty</string>
+    <string name="desc">You are given 10 arithmetic problems of your chosen difficulty. Solve as many as you can!</string>
+</resources>

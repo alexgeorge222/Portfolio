@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginTop = "5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="SPACE"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginTop = "5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/quest"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginTop = "5dp"
+        android:layout_marginBottom = "5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop = "10dp">
+    <Button
+        android:id="@+id/one"
+        style="@style/GameTile"
+        android:text = "@string/t_one"
+        android:tag="1"
+        android:layout_column="0"
+        android:layout_row="0"/>
+    <Button
+        android:id="@+id/two"
+        style="@style/GameTile"
+        android:tag="2"
+        android:text = "@string/t_two"
+        android:layout_column="1"
+        android:layout_row="0"/>
+    <Button
+        android:id="@+id/three"
+        style="@style/GameTile"
+        android:tag="3"
+        android:text = "@string/t_three"
+        android:layout_column="2"
+        android:layout_row="0"/>
+    <Button
+        android:id="@+id/four"
+        style="@style/GameTile"
+        android:tag="4"
+        android:text = "@string/t_four"
+        android:layout_column="0"
+        android:layout_row="1"/>
+    <Button
+        android:id="@+id/five"
+        style="@style/GameTile"
+        android:tag="5"
+        android:text = "@string/t_five"
+        android:layout_column="1"
+        android:layout_row="1"/>
+    <Button
+        android:id="@+id/six"
+        style="@style/GameTile"
+        android:tag="6"
+        android:text = "@string/t_six"
+        android:layout_column="2"
+        android:layout_row="1"/>
+    <Button
+        android:id="@+id/seven"
+        style="@style/GameTile"
+        android:tag="7"
+        android:text = "@string/t_seven"
+        android:layout_column="0"
+        android:layout_row="2"/>
+    <Button
+        android:id="@+id/eight"
+        style="@style/GameTile"
+        android:tag="8"
+        android:text = "@string/t_eight"
+        android:layout_column="1"
+        android:layout_row="2"/>
+    <Button
+        android:id="@+id/nine"
+        style="@style/GameTile"
+        android:tag="9"
+        android:text = "@string/t_nine"
+        android:layout_column="2"
+        android:layout_row="2"/>
+    <Button
+        android:id="@+id/del"
+        style="@style/GameTile"
+        android:text = "@string/t_del"
+        android:layout_column="0"
+        android:layout_row="3"/>
+    <Button
+        android:id="@+id/zero"
+        style="@style/GameTile"
+        android:tag="0"
+        android:text = "@string/t_zero"
+        android:layout_column="1"
+        android:layout_row="3"/>
+    <Button
+        android:id="@+id/ent"
+        style="@style/GameTile"
+        android:text = "@string/t_pound"
+        android:layout_column="2"
+        android:layout_row="3"/>
+    <Button
+        android:id="@+id/minus"
+        style="@style/GameTile"
+        android:text = "@string/t_min"
+        android:layout_column="3"
+        android:layout_row="3"/>
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
